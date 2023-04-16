@@ -33,19 +33,19 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>hexo+github个人博客（超详细）（但没写完） - 修曦</title>
+  <title>hexo+github个人博客（超详细） - 修曦</title>
   <meta name="keywords" content="技术,null">
   <meta desc name="description" content="修曦的个人博客 - Xi - 修曦">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo+github个人博客（超详细）（但没写完）">
+<meta property="og:title" content="hexo+github个人博客（超详细）">
 <meta property="og:url" content="https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="修曦">
-<meta property="og:description" content="1.安装Node.js+npm下载Node.js新建一个文件夹，称【A】:(E:\Ablog\nodejs)安装在【A】内。注：括号内是我的配置 可勾选：  Automatically install the necessary tools.Note that this will also install Chocolatey. The scriptwill pop-up in a new win">
+<meta property="og:description" content="1.安装Node.js+npm下载Node.js新建一个文件夹，称【A】(E:\Ablog\nodejs)安装在【A】内。注：括号内是我的配置 可勾选：  Automatically install the necessary tools.Note that this will also install Chocolatey. The scriptwill pop-up in a new wind">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2023-04-14T00:33:25.000Z">
-<meta property="article:modified_time" content="2023-04-16T04:17:37.436Z">
+<meta property="article:modified_time" content="2023-04-16T05:39:37.982Z">
 <meta property="article:author" content="Xi">
 <meta property="article:tag" content="技术">
 <meta name="twitter:card" content="summary">
@@ -2275,7 +2275,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     root: '/tech/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1681618674633),
+    lastupdate: new Date(1681623601442),
     cdn: {
       izitoast_css: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2581,7 +2581,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        hexo+github个人博客（超详细）（但没写完）
+        hexo+github个人博客（超详细）
       </h1>
       <div class='new-meta-box'>
         
@@ -2647,7 +2647,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <h2 id="1-安装Node-js-npm"><a href="#1-安装Node-js-npm" class="headerlink" title="1.安装Node.js+npm"></a>1.安装Node.js+npm</h2><p>下载<a target="_blank" rel="noopener" href="https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi">Node.js</a><br>新建一个文件夹，称【A】:(E:\Ablog\nodejs)<br>安装在【A】内。<br><font size=1><em>注：括号内是我的配置</em></font></p>
+    <h2 id="1-安装Node-js-npm"><a href="#1-安装Node-js-npm" class="headerlink" title="1.安装Node.js+npm"></a>1.安装Node.js+npm</h2><p>下载<a target="_blank" rel="noopener" href="https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi">Node.js</a><br>新建一个文件夹，称【A】(E:\Ablog\nodejs)<br>安装在【A】内。<br><font size=1><em>注：括号内是我的配置</em></font></p>
 <p>可勾选：<br><font size=2></p>
 <blockquote>
 <p>Automatically install the necessary tools.Note that this will also install Chocolatey. The scriptwill pop-up in a new window after the installation completes.</font><br>以安装必要工具，如Python、VSCode等等。（我勾选）</p>
@@ -2661,12 +2661,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <p>添加npm配置路径</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm config set prefix &quot;【A】\node_global&quot;</span><br><span class="line">npm config set cache &quot;【A】\node_cache&quot;</span><br><span class="line">如：</span><br><span class="line">npm config set prefix &quot;E:\Ablog\nodejs\node_global&quot;</span><br><span class="line">npm config set cache &quot;E:\Ablog\nodejs\node_cache&quot;</span><br></pre></td></tr></table></figure>
 <p>并将其配置到环境变量。</p>
-<h2 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h2><p><font size=1><em>注：有些问题不常见，所以就没说，(例如遇到The operation was rejected by your operating system.就用管理员身份运行cmd就好了）遇到问题可以在评论区问哦~</em></font><br>新建一个文件夹，称【B】:(E:\Ablog\blogs)<br>打开cmd，cd 【B】，<font size=1>记得e:哦，不然不会切换的。</font></p>
+<h2 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h2><p><font size=1><em>注：有些问题不常见，所以就没说，(例如遇到The operation was rejected by your operating system.就用管理员身份运行cmd就好了）遇到问题可以在评论区问哦~</em></font><br>新建一个文件夹，称【B】(E:\Ablog\blogs)<br>打开cmd，cd 【B】，<font size=1>记得e:哦，不然不会切换的。</font></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 <p><font size=1>文件夹内没出现东西是正常的，因为-g代表全局嘛</font></p>
 <h2 id="3-初始化博客"><a href="#3-初始化博客" class="headerlink" title="3.初始化博客"></a>3.初始化博客</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
-<p><font size=1>会自动在【B】内新建一个文件夹【C】:(E:\Ablog\blogs\blog)，因为我是用了多个仓库，如果只用一个仓库就只建一层就好了。</font><br>切换到【C】，可以看到有很多文件和文件夹，打开themes，把你找到的主题弄进去，<font size=1>可以直接<a target="_blank" rel="noopener" href="https://codeload.github.com/volantis-x/hexo-theme-volantis/zip/50f7a6ea3c89206ca0d95b5c271e3fdfe482899f">下载</a>，然后在themes中新建一个volantis文件夹，然后把很多文件和文件夹那层移进去</font></p>
-<h2 id="我先去吃饭，等下再继续"><a href="#我先去吃饭，等下再继续" class="headerlink" title="我先去吃饭，等下再继续"></a>我先去吃饭，等下再继续</h2><p>在【C】内(cd E:\Ablog\blogs\blog)</p>
+<p><font size=1>会自动在【B】内新建一个文件夹【C】(E:\Ablog\blogs\blog)，因为我是用了多个仓库，如果只用一个仓库就只建一层就好了。</font><br>切换到【C】，可以看到有很多文件和文件夹，打开themes，把你找到的主题弄进去，<font size=1>可以直接<a target="_blank" rel="noopener" href="https://codeload.github.com/volantis-x/hexo-theme-volantis/zip/50f7a6ea3c89206ca0d95b5c271e3fdfe482899f">下载</a>，然后在themes中新建一个volantis文件夹，然后把很多文件和文件夹那层移进去</font></p>
+<h2 id="4-部署到github"><a href="#4-部署到github" class="headerlink" title="4.部署到github"></a>4.部署到github</h2><p>注册一个github账号并登录<br>假定你的用户名【D】(xiuxi1)，<a target="_blank" rel="noopener" href="https://github.com/new">新建一个仓库</a>，名字<font size=1>(Repository name)</font>：【D】.github.io<br>打开【C】中的_config.yml<font size=1>如果要实现什么个性化，大部分修改在这个文件和themes&#x2F;volantis里的同名文件，其他文件基本不用动，最多最多在source文件夹中增加一些文件夹和文件</font><br>拖到最后，从theme改起，没有的加</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">theme: volantis</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/【D】/【D】.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  # 注意这种:后面都要加空格</span><br><span class="line">user:</span><br><span class="line">  name: 【D】</span><br></pre></td></tr></table></figure>
+<p><font size=1>除此之外【C】中的_config.yml<br>title(第6行)、author(10)、language(11)zh-CN、url(16)https:&#x2F;&#x2F;【D】.github.io<br>等等都可以修改，但一开始最好少改，慢慢弄懂之后再弄。</font><br>打开cmd，切换到【C】<br>安装hexo-deployer-git</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<p>然后</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp; hexo g &amp; hexo d</span><br></pre></td></tr></table></figure>
+<p>WARN暂时不用管，但ERROR要管，Error: Spawn failed一般再来一次就好。<br>完成后打开你的github的【D】.github.io仓库，可以看到已经有文件了。打开最右边的settings，选择左边的pages，在Build and deployment中的Branch中选择那个下拉框（None），选择master，后面自动出现root，选择save。<br>刷新几下，在Build and deployment上面就会出现Your site is live at ……，访问它就好了。<br>这就是最基本的博客了，你可以在【C】中的<code>source/_posts</code>里面参考hello-world.md新建并修改.md文件，然后打开cmd，切换到【C】</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp; hexo g &amp; hexo d</span><br></pre></td></tr></table></figure>
+<p>就可以推送到博客了。<font size=1>要稍微等等才会更新，大概80秒</font><br>之后你可以参考<a target="_blank" rel="noopener" href="https://github.com/volantis-x/community%E4%B8%AD%E7%9A%84%E6%96%87%E4%BB%B6%E5%92%8Chttps://volantis.js.org/">https://github.com/volantis-x/community中的文件和https://volantis.js.org/</a> <font size=1>(它的搜索挺好用）</font>来修改和增加你的文件，个性化博客。</p>
+<h2 id="5-更多"><a href="#5-更多" class="headerlink" title="5.更多"></a>5.更多</h2><p>你可以在【C】中新建一个blog.bat，其中输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean   &amp;&amp; hexo g   &amp;&amp; hexo d &amp;&amp; pause</span><br></pre></td></tr></table></figure>
+<p>这样就可以直接点击它就完成推送了。<br>你也可以使用md文件的编辑器或者HexoEditor来更好的编写你的md文件。<br><font size=1>先写到这啦</font></p>
 
   </div>
   
@@ -2691,7 +2702,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-04-16T12:17:37+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-04-16T13:39:37+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2023年4月16日</p>
@@ -2720,7 +2731,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&title=hexo+github个人博客（超详细）（但没写完） - 修曦&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&title=hexo+github个人博客（超详细） - 修曦&summary="
           
           >
           
@@ -2732,7 +2743,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&title=hexo+github个人博客（超详细）（但没写完） - 修曦&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&title=hexo+github个人博客（超详细） - 修曦&summary="
           
           >
           
@@ -2744,7 +2755,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&title=hexo+github个人博客（超详细）（但没写完） - 修曦&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&title=hexo+github个人博客（超详细） - 修曦&summary="
           
           >
           
@@ -2841,7 +2852,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   <div class='content'>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%AE%89%E8%A3%85Node-js-npm"><span class="toc-text">1.安装Node.js+npm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%AE%89%E8%A3%85hexo"><span class="toc-text">2.安装hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2"><span class="toc-text">3.初始化博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E5%85%88%E5%8E%BB%E5%90%83%E9%A5%AD%EF%BC%8C%E7%AD%89%E4%B8%8B%E5%86%8D%E7%BB%A7%E7%BB%AD"><span class="toc-text">我先去吃饭，等下再继续</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%AE%89%E8%A3%85Node-js-npm"><span class="toc-text">1.安装Node.js+npm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%AE%89%E8%A3%85hexo"><span class="toc-text">2.安装hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2"><span class="toc-text">3.初始化博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E9%83%A8%E7%BD%B2%E5%88%B0github"><span class="toc-text">4.部署到github</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%9B%B4%E5%A4%9A"><span class="toc-text">5.更多</span></a></li></ol>
   </div>
 </section>
 
@@ -3738,7 +3749,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"修曦","url":"https://xiuxi1.github.io/tech/tech/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Xi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://xiuxi1.github.io/tech/tech/","sameAs":["https://github.com/volantis-x"],"description":"修曦的个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xiuxi1.github.io/tech/tech/","name":"修曦"}},{"@type":"ListItem","position":2,"item":{"@id":"https://xiuxi1.github.io/tech/tech/categories/技术/","name":"技术"}},{"@type":"ListItem","position":2,"item":{"@id":"https://xiuxi1.github.io/tech/tech/categories/技术/搭博客/","name":"搭博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xiuxi1.github.io/tech/tech/2023/04/14/hexo+gitee搭建个人博客/","name":"hexo+github个人博客（超详细）（但没写完）"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"修曦","url":"https://xiuxi1.github.io/tech/tech/","keywords":null,"description":"修曦的个人博客","author":{"@type":"Person","name":"Xi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://xiuxi1.github.io/tech/tech/","description":"修曦的个人博客"},"publisher":{"@type":"Organization","name":"修曦","url":"https://xiuxi1.github.io/tech/tech/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://xiuxi1.github.io/tech?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"hexo+github个人博客（超详细）（但没写完）","description":"修曦的个人博客","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"},"author":{"@type":"Person","name":"Xi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://xiuxi1.github.io/tech/tech/"},"publisher":{"@type":"Organization","name":"修曦","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/","wordCount":0,"datePublished":"2023-04-14T00:33:25.000Z","dateModified":"2023-04-16T04:17:37.436Z","articleSection":"技术","keywords":"技术","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"修曦","url":"https://xiuxi1.github.io/tech/tech/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Xi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://xiuxi1.github.io/tech/tech/","sameAs":["https://github.com/volantis-x"],"description":"修曦的个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xiuxi1.github.io/tech/tech/","name":"修曦"}},{"@type":"ListItem","position":2,"item":{"@id":"https://xiuxi1.github.io/tech/tech/categories/技术/","name":"技术"}},{"@type":"ListItem","position":2,"item":{"@id":"https://xiuxi1.github.io/tech/tech/categories/技术/搭博客/","name":"搭博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xiuxi1.github.io/tech/tech/2023/04/14/hexo+gitee搭建个人博客/","name":"hexo+github个人博客（超详细）"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"修曦","url":"https://xiuxi1.github.io/tech/tech/","keywords":null,"description":"修曦的个人博客","author":{"@type":"Person","name":"Xi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://xiuxi1.github.io/tech/tech/","description":"修曦的个人博客"},"publisher":{"@type":"Organization","name":"修曦","url":"https://xiuxi1.github.io/tech/tech/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://xiuxi1.github.io/tech?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"hexo+github个人博客（超详细）","description":"修曦的个人博客","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"},"author":{"@type":"Person","name":"Xi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://xiuxi1.github.io/tech/tech/"},"publisher":{"@type":"Organization","name":"修曦","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://xiuxi1.github.io/tech/2023/04/14/hexo+gitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/","wordCount":0,"datePublished":"2023-04-14T00:33:25.000Z","dateModified":"2023-04-16T05:39:37.982Z","articleSection":"技术","keywords":"技术","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
