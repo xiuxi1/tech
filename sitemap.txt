@@ -1,3 +1,4 @@
+https://xiuxi1.github.io/tech/about/index.html
 https://xiuxi1.github.io/tech/posts/648efea9.html
 https://xiuxi1.github.io/tech/posts/648ecfe8.html
 https://xiuxi1.github.io/tech/posts/63fdaf6e.html
@@ -7,16 +8,15 @@ https://xiuxi1.github.io/tech/posts/6447a478.html
 https://xiuxi1.github.io/tech/posts/6447359e.html
 https://xiuxi1.github.io/tech/posts/643b5cb1.html
 https://xiuxi1.github.io/tech/posts/64396cdd.html
-https://xiuxi1.github.io/tech/about/index.html
 https://xiuxi1.github.io/tech/tags/index.html
 https://xiuxi1.github.io/tech/categories/index.html
 https://xiuxi1.github.io/tech
-https://xiuxi1.github.io/tech/tags/%E5%9B%BE%E5%BA%93/
 https://xiuxi1.github.io/tech/tags/%E6%8A%80%E6%9C%AF/
 https://xiuxi1.github.io/tech/tags/%E5%8D%B1%E9%99%A9%E8%BD%AF%E4%BB%B6%E9%9A%94%E7%A6%BB/
+https://xiuxi1.github.io/tech/tags/%E5%9B%BE%E5%BA%93/
 https://xiuxi1.github.io/tech/tags/%E8%AE%A1%E5%88%92/
-https://xiuxi1.github.io/tech/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/
 https://xiuxi1.github.io/tech/tags/%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/
+https://xiuxi1.github.io/tech/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/
 https://xiuxi1.github.io/tech/tags/%E9%87%8D%E7%BD%AE%E7%94%B5%E8%84%91/
 https://xiuxi1.github.io/tech/categories/%E6%8A%80%E6%9C%AF/
 https://xiuxi1.github.io/tech/categories/%E8%AE%A1%E5%88%92/
