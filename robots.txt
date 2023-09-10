@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /tech/posts/
+Disallow: /joy/
+Disallow: /jtgs/
+Disallow: /tech/tags/
+Disallow: /tech/categories/
+Disallow: /tech/archives/
+Disallow: /tech/page/2/categories/
+Allow: /tech/sitemap.xml
